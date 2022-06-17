@@ -1,14 +1,21 @@
-.game{
-width: 100%;
-height: 100%;
-display: flex;
-align-items: flex-end;
-justify-content: space-around;
-margin-top: 400px;
-background-image: url("https://img.freepik.com/vetores-gratis/fundo-digital-do-espaco-azul-da-copia_23-2148821698.jpg?size=626&ext=jpg");
+
+body{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(222,135,135,1) 0%, rgba(49,159,36,0.7511379551820728) 36%, rgba(0,212,255,1) 91%);
+
 }
 
-section{
+.game {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-top: 400px;
+    
+}
+
+section {
     width: 33%;
     height: 200px;
     display: flex;
@@ -17,61 +24,71 @@ section{
 }
 
 
-.container1, .container2, .container3 {
+.container1,
+.container2,
+.container3 {
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 
 }
 
-.torres1,.torres2.torres3{
-    display: flex; 
-    flex-direction: column-reverse; 
+.torres1,
+.torres2.torres3 {
+    display: flex;
+    flex-direction: column-reverse;
     align-items: center;
-   
 
-    
+
+
 }
 
-.torres1{
+.torres1 {
     height: 50%;
 }
-.torres2, .torres3{
+
+.torres2,
+.torres3 {
     height: 200px;
 }
 
-.torre1{
-    background-color: #DAA520;;
+.torre1 {
+    background-color: #DAA520;
+    ;
     width: 25px;
     height: 200px;
-    display: flex; 
-    flex-direction: column-reverse; 
+    display: flex;
+    flex-direction: column-reverse;
     align-items: center;
 
-      
+
 }
-.torre2{
-    background-color: #DAA520;;
+
+.torre2 {
+    background-color: #DAA520;
+    ;
     width: 25px;
     height: 200px;
-    display: flex; 
-        flex-direction: column-reverse; 
-        align-items: center;
-    
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
 }
-.torre3{
-    background-color: #DAA520;;
+
+.torre3 {
+    background-color: #DAA520;
+    ;
     width: 25px;
     height: 200px;
-    display: flex; 
-    flex-direction: column-reverse; 
+    display: flex;
+    flex-direction: column-reverse;
     align-items: center;
 }
 
-.disco{
-    display: flex;     
+.disco {
+    display: flex;
 
     flex-direction: column-reverse;
     align-items: center;
@@ -79,38 +96,41 @@ section{
     height: 50%;
 }
 
-.disco1{
+.disco1 {
     width: 150px;
     height: 35px;
     background-color: rgb(163, 6, 6);
     border-radius: 5px;
-    display: flex; 
-    flex-direction: column-reverse; 
+    display: flex;
+    flex-direction: column-reverse;
     align-items: center;
 }
-.disco2{
+
+.disco2 {
     width: 130px;
     height: 35px;
     background-color: green;
     border-radius: 5px;
-    display: flex; 
-    flex-direction: column-reverse; 
+    display: flex;
+    flex-direction: column-reverse;
     align-items: center;
 }
-.disco3{
+
+.disco3 {
     width: 110px;
     height: 35px;
     background-color: blueviolet;
     border-radius: 5px;
-    display: flex; 
-    flex-direction: column-reverse; 
+    display: flex;
+    flex-direction: column-reverse;
     align-items: center;
 }
-.disco4{
+
+.disco4 {
     width: 90px;
     height: 35px;
     background-color: blue;
     border-radius: 5px;
-    display: flex; 
-    flex-direction: column-reverse; 
+    display: flex;
+    flex-direction: column-reverse;
 }
